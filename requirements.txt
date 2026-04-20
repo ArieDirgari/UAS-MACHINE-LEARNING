@@ -3,5 +3,5 @@ tensorflow
 numpy
 pillow
 opencv-python-headless
-json
+streamlit-folium
 folium
