@@ -55,7 +55,7 @@ if uploaded_file is not None:
     st.write(f"Motif ini berasal dari: **{origin_prov}**")
 
     # ================= LOAD GEOJSON =================
-    with open("indonesia.geojson", "r", encoding="utf-8") as f:
+    with open("data/indonesia.geojson", "r", encoding="utf-8") as f:
         geojson_data = json.load(f)
 
     # ================= MAP =================
